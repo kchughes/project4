@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+    <head>
+        <meta charset="<?php bloginfo( 'charset' ); ?>" />
+        <title><?php wp_title(); ?></title>
+        <meta name="description" content="<?php bloginfo( 'description' ); ?>">
+	
+	<!-- added info -->
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+ 	<meta name="author" content="Khalila Hughes">
+ 	<meta name="keywords" content="Khalila, Hughes, design, creative, professional, content, information design">
+	<!-- end added info -->
+
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
+        <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
+
+	<!-- my js -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="/wp-content/themes/530project/js/jquery/colorbox/jquery.colorbox.js"></script>
+	<!-- end my js -->
+
+        <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
+        <?php wp_head(); ?>
+    </head>
+
+<body>
+
+<div id="page">
+
+	<div id="topblock">
+		<p> &nbsp;</p>
+	</div> 		<!-- end topblock--> 
+
+	<div id="header">
+		<a href="http://khalila.net/"> <img src="/wp-content/themes/530project/media/img/kh-logolong.png" alt="Khalila Hughes" /> </a>
+	
+	<ul id="navigation">
+		<li class="home"><a href="http://khalila.net/">Home</a></li>
+		<li class="about"><a href="/about/">About</a></li>
+		<li class="work"><a href="/work/">Work</a></li>
+		<li class="connect"><a href="/connect/">Connect</a></li>
+	</ul>		<!--end navigation-->
+
+	</div>		<!--end header-->

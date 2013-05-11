@@ -1,0 +1,50 @@
+<?php get_header();?>
+
+	<div id="big-blurb-home">
+			<h1> I craft beautiful content and design for all media.</h1>
+		</div> <!--end big-blurb-->
+
+	<div id="content-body"  class="adjust">
+
+		<div id="home-about">
+			<p> Hi, my name is Khalila.  I am a designer, editor, and writer based out of the biggest city in the Midwest. </p>
+			<p> View my <a href="/work/">work</a>, read more <a href="/about/"> about</a> me
+				(<a href="/resume/">resume </a> included) or send me a message through 
+			my <a href="/connect/">contact</a> page.</p>
+		</div> <!-- home-about -->
+	
+		<div id="short-print">
+    			<h2><a href="/print/">Print</a></h2>
+	
+			<ul> 
+				<li> <a class="gallery print-group" href="/wp-content/themes/530project/media/img/portfolio-snapshots/opi-brochure-interior.jpg" title="OPI Brochure- Interior">
+						<img src="/wp-content/themes/530project/media/img/portfolio-snapshots/tn-opibrochure-interior.jpg" alt="OPI Brochure Interior" />
+						<span class="caption">OPI Brochure- Interior</span> </a> </li>   				
+				<li> <a class="gallery print-group" href="/wp-content/themes/530project/media/img/portfolio-snapshots/tn-2009wbinvite.png" title= "Winter Brunch Invitation">
+						<img src="/wp-content/themes/530project/media/img/portfolio-snapshots/tn-2009wbinvite.png"   alt="Winter Brunch Invitation" /> 
+						<span class="caption">Winter Brunch Invitation</span> </a> </li>
+   				<li> <a class="gallery print-group" href="/wp-content/themes/530project/media/img/portfolio-snapshots/reportingmanual.jpg"    title="Time Effort Reporting Manual">
+						<img src="/wp-content/themes/530project/media/img/portfolio-snapshots/tn-reportingmanual.jpg"    alt="Time Effort Reporting Manual" />
+					<span class="caption">Time Effort Reporting Manual</span> </a> </li>
+			</ul>
+
+		</div> <!--end short-print-->
+
+		<div id="short-digital">
+      			<h2><a href="/digital/">Digital</a></h2>
+	    		<ul>
+        			<li> <a class="gallery digital-group" href="/wp-content/themes/530project/media/img/portfolio-snapshots/2011holidaycard.jpg"  title="Holiday Card"> 
+					<img src="/wp-content/themes/530project/media/img/portfolio-snapshots/tn-2011holidaycard.png"  alt="Holiday Card" />
+					<span class="caption">Holiday Card</span> </a></li>
+	 			<li> <a class="gallery digital-group" href="/wp-content/themes/530project/media/img/portfolio-snapshots/june242012ward44.jpg"   title="June 24, 2012 Project">
+					<img src="/wp-content/themes/530project/media/img/portfolio-snapshots/tn-june242012ward44.jpg"   alt="June 24, 2012" />
+					<span class="caption">June 24, 2012 Project</span> </a> </li>
+				<li> <a class="gallery digital-group" href="/wp-content/themes/530project/media/img/portfolio-snapshots/2012holidaycard.jpg"    title="Holiday Card">
+					<img src="/wp-content/themes/530project/media/img/portfolio-snapshots/tn-2012holidaycard.jpg"    alt="Holiday Card" />
+					<span class="caption">Holiday Card</span></a>  </li>
+			</ul>
+  		</div> 		<!--end short-digital-->
+	</div> 		<!--end content-body-->
+  	</div>  		<!--end wrapper-->
+
+<?php get_footer();?>

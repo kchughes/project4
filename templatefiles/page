@@ -1,0 +1,11 @@
+<?php the_post()?>
+<?php get_header(); ?>
+	
+	<div id="wrapper">
+	
+	<? the_content();?>
+		
+	</div> 		<!--end content-body-->
+  </div>  		<!--end wrapper-->
+
+<?php get_footer(); ?>
